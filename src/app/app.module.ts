@@ -40,7 +40,9 @@ import { ReviewdetailsComponent } from './pages/reviewdetails/reviewdetails.comp
 import { MatStepperModule} from '@angular/material/stepper';
 import { MatButtonModule} from '@angular/material/button'
 import { StepsformComponent } from './pages/stepsform/stepsform.component';
-
+import {AngularFireModule} from '@angular/fire';
+import {AngularFireDatabaseModule} from '@angular/fire/database';
+import { environment} from '../environments/environment';
 import { DropdownComponent } from './pages/dropdown/dropdown.component';
 import {  ReactiveFormsModule,FormsModule, ControlContainer } from '@angular/forms';
 import { MatCheckboxModule } from '@angular/material/checkbox';
@@ -102,6 +104,10 @@ import { AboutusComponent } from './pages/aboutus/aboutus.component';
     MatButtonModule,
     CarouselModule,
     MatCheckboxModule,
+    AngularFireDatabaseModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFireDatabaseModule,
+    
    
   ],
   
