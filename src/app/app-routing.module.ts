@@ -35,6 +35,7 @@ import { ForgetpasswordComponent } from './pages/forgetpassword/forgetpassword.c
 import { AboutusComponent } from './pages/aboutus/aboutus.component'
 
 import { from } from 'rxjs';
+import { Career1Component } from './pages/career1/career1.component';
 
 const routes: Routes = [
   {
@@ -87,6 +88,10 @@ const routes: Routes = [
   {
     path: 'career',
     component: CareerComponent
+  },
+  {
+    path: 'career-1',
+    component: Career1Component
   },
   {
     path: 'digital-marketing',
@@ -161,6 +166,7 @@ const routes: Routes = [
     path: 'forgetpassword',
     component: ForgetpasswordComponent
   },
+  
   {
     path: 'aboutus',
     component: AboutusComponent

@@ -1,0 +1,54 @@
+.container-fluid {
+    position: relative;
+  }
+.container{
+    padding: 3rem;
+}
+.main-content{
+    padding: 0 1.5rem 
+}
+.container h3{
+    padding: 0.5rem ;
+    text-align: left;
+    font: normal normal bold 30px/37px Montserrat;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+    opacity: 1;
+    
+
+}
+.container .text-content p{
+    padding: 2rem;
+    text-align: left;
+    font: normal normal normal 16px/26px Montserrat;
+    letter-spacing: 0px;
+    color: #949494;
+    opacity: 1;
+}
+  .center {
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    width: 100%;
+    margin-left: 10vh;   
+    font: normal normal bold 40px/26px Montserrat;
+    letter-spacing: 0px;
+    opacity: 1;
+  } 
+  img { 
+    width: 100%;
+    height: auto;     
+  }
+
+.vl {
+    border-left: 6px solid #ff5300;
+    height: 4rem;
+    padding: 1rem;
+    position: absolute;   
+  }
+  .header .btn-primary{
+   float: right;
+   background: transparent linear-gradient(180deg, #FFC52A 0%, #F96939 74%, #F74440 100%) 0% 0% ;
+   border-radius: 5px;
+   
+  }

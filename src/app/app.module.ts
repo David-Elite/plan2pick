@@ -50,6 +50,7 @@ import { ForgetpasswordComponent } from './pages/forgetpassword/forgetpassword.c
 import { AboutusComponent } from './pages/aboutus/aboutus.component';
 
 
+
 @NgModule({
  
   declarations: [
@@ -90,6 +91,7 @@ import { AboutusComponent } from './pages/aboutus/aboutus.component';
     DropdownComponent,
     ForgetpasswordComponent,
     AboutusComponent,
+   
 
     
   ],
